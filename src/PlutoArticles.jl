@@ -2,8 +2,8 @@ module PlutoArticles
 
 using Reexport
 
-@reexport module ViewNotebook
-    include("View.jl")
+@reexport module ArticleNotebook
+    include("Article.jl")
 end
 
 @reexport module WordCountNotebook

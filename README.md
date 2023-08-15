@@ -12,14 +12,14 @@ For text-heavy notebooks like articles, this package helps shift the "feel" from
 It's super easy! Just add the following to your existing Pluto.jl notebook:
 
 ```julia
-import PlutoArticles
-PlutoArticles.init()
+using PlutoArticles
+article()  # make sure this is in its own cell!
 ```
 
 You won't see anything happen - the updated styles will only apply **once the notebook is exported**. If you want to try them out in your editor, specify the `preview` keyword argument.
 
 ```julia
-PlutoArticles.init(; preview = true)
+article(; preview = true)
 ```
 
 ## List of Changes
@@ -47,7 +47,7 @@ Interpolation:
 ```julia
 @htl("""
 <span>Word count: $(WordCount())</span>
-"""
+""")
 ```
 
 Binding to word count (be careful with this):

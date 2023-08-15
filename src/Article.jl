@@ -20,7 +20,7 @@ using HypertextLiteral
 
 # ╔═╡ 0f5a4e9e-37c3-11ee-0582-ef21826c8c22
 md"""
-# View.jl
+# Article.jl
 """
 
 # ╔═╡ 67f91775-9257-4803-8c84-907807a191d2
@@ -29,7 +29,7 @@ md"""
 """
 
 # ╔═╡ 5c92ec85-9456-417e-8a07-7093fea2b7e8
-function init(; preview=false, header_ids=true)
+function article(; preview=false, header_ids=true)
 	static = preview ? "" : ".static_preview"
 	return @htl("""
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,7 @@ $(static) pluto-output h3 {
 }
 $(static) pluto-output {
 	font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", Times, serif;
-	font-size: 16pt;
+	font-size: 14pt;
 }
 $(static) pluto-editor.fullscreen main {
 	max-width: 1000px !important;
@@ -61,12 +61,12 @@ $(static) pluto-editor.fullscreen main {
 end
 
 # ╔═╡ da41b2d8-4a79-4c2e-ac06-22e7d9fe1927
-export init
+export article
 
 # ╔═╡ 1b7b784d-d155-41be-9f8f-18e52331818a
 # ╠═╡ skip_as_script = true
 #=╠═╡
-init(; preview=true)
+article(; preview=true)
   ╠═╡ =#
 
 # ╔═╡ c540d197-bc16-4c51-877f-6c92dad1dcbb
