@@ -1,6 +1,9 @@
 ### A Pluto.jl notebook ###
 # v0.19.27
 
+#> [frontmatter]
+#> sidebar = "false"
+
 using Markdown
 using InteractiveUtils
 

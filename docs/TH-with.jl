@@ -4,6 +4,7 @@
 #> [frontmatter]
 #> author_url = "https://github.com/JuliaPluto"
 #> image = "https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg"
+#> title = "Example Notebook - With PlutoArticles.jl"
 #> tags = ["basic", "classic"]
 #> author_name = "Pluto.jl"
 #> description = "An interactive Julia puzzle about stacking disks."
