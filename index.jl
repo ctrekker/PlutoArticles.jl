@@ -2,6 +2,7 @@
 # v0.19.27
 
 #> [frontmatter]
+#> title = "PlutoArticles.jl"
 #> sidebar = "false"
 
 using Markdown
