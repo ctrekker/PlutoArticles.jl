@@ -6,6 +6,10 @@ using Reexport
     include("Article.jl")
 end
 
+@reexport module HideTerminal
+    include("HideTerminal.jl")
+end
+
 @reexport module WordCountNotebook
     include("WordCount.jl")
 end
