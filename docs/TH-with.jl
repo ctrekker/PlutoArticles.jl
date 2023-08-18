@@ -18,6 +18,7 @@ using InteractiveUtils
 begin
 	using Pkg
 	Pkg.activate("..")
+	Pkg.instantiate()
 	using PlutoArticles
 	article()
 end

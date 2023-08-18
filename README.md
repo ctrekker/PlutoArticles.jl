@@ -3,6 +3,8 @@
 
 For text-heavy notebooks like articles, this package helps shift the "feel" from that of a notebook environment to an article.
 
+*[See live example](https://glassnotebook.io/r/jEft6_lPVdJLsD56RTtBl/docs/TH-with.jl)*
+
 *Left*: Normal Pluto; *Right*: Article Mode Pluto
 
 ![pluto-articles](https://github.com/ctrekker/PlutoArticles.jl/assets/22894011/8292fcc0-36ca-47bb-9bab-2980e428065a)
